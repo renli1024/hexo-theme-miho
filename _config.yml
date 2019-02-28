@@ -7,11 +7,11 @@ favicon: /favicon.ico
 # Header
 
 # Keywords of your site | 网站关键字
-keywords: MinHow,MinHow's Blog
+keywords: Ren Li's Blog
 # Head headline | 头部标题
-header_title: MinHow's Blog
+header_title: Ren Li's Blog
 # Head description | 头部描述
-header_description: 一个专注 WEB 开发的技术博客
+header_description: Think and write down.
 # Link to your logo | logo地址
 logo: images/logo.png
 # Link to your banner_img | 首页banner图地址
@@ -31,8 +31,8 @@ menu:
     url: /archives
     target: false
   user:
-    title: About
-    url: /about
+    title: Github
+    url: https://github.com/lrStyle
     target: false
 # Social setting, use to display social information | 社交设置，用来展示社交信息
 #  name:                  Font Awesome icon | Font Awesome 图标
@@ -40,22 +40,11 @@ menu:
 #    url: //minhow.com    Url, absolute or relative path | 链接，绝对或相对路径
 #    target: true         Whether to jump out | 是否跳出
 social:
-  home:
-    title: MinHow
-    url: //minhow.com
-    target: true
   github:
     title: Github
     url: //github.com/wongminho
     target: true
-  weibo:
-    title: Weibo
-    url: //weibo.com/WongMinHo
-    target: true
-  twitter:
-    title: Twitter
-    url: //twitter.com/huangminhow
-    target: true
+
   #qq:
   #weixin:
   #snapchat:
@@ -76,16 +65,16 @@ open_new_link: false
 # Article default cover picture，size：350*150 | 文章默认封面图，尺寸：350*150
 cover_picture: images/banner.jpg
 # Open background particles | 开启背景粒子
-open_bg_particle: true
+open_bg_particle: false
 # Open animation in homepage and head | 开启主页及头部动画
-open_animation: true
+open_animation: false
 
 # Article
 
 # Open toc | 是否开启toc
 toc: true
 # Open share | 是否开启分享
-share: true
+share: false
 
 # Style customization | 样式定制
 style:

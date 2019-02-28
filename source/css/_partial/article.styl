@@ -78,7 +78,7 @@
   color: color-default
   p, table
     line-height: line-height
-    font-size: 1rem
+    font-size: 1.1rem
     margin: line-height-margin 0
     word-wrap: break-word
   h4, h5, h6
@@ -194,7 +194,8 @@
         -webkit-transform: scale(1.5)
         -o-transform: scale(1.5)
   .article-feed
-    margin-left: 320px
+    float: left
+    width: 100%
   .article-tags
     position: absolute
     left: 315px
@@ -458,7 +459,7 @@ $article-share-link
 .post-toc-pos
   z-index: 999
   bottom: 77%
-  left: calc(50% - 660px)
+  left: calc(1.5%)
   position: fixed
   .post-article
     float: left
@@ -476,9 +477,10 @@ $article-share-link
   opacity: 0
 
 .post-toc-wrap
+  overflow-y: scroll
   position: fixed
   border-radius: 3px
-  width: 200px
+  width: 234px
   max-height: 400px
   color: #313131
   &.fixed
@@ -524,6 +526,7 @@ $article-share-link
     position: relative
 
 .post-toc-link
+  white-space: nowrap
   position: relative
   z-index: 2
   padding: 3px 10px
@@ -545,11 +548,11 @@ $article-share-link
     height: 100%
 
 .post-copyright
-  margin: 30px 0
+  margin: 0 0
   font-size: 14px
   .content
     margin-bottom: 1em
-    padding: 10px 0 30px 20px
+    padding: 10px 0 0px 0px
     word-break: break-all
     color: #727272
     background: lighten( main-color, 95%)

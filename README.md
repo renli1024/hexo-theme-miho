@@ -1,3 +1,11 @@
+## 写在前面
+本仓库是基于hexo-theme-miho框架的修改版，更符合我个人的使用需求，修改的内容包括：
+- 去掉了顶部的bannner图片，将github link放到了最上方。此外也修改了header剩余部分的字体和颜色；
+- 文章导航栏只显示摘要，而不显示图片；
+- 对目录的显示格式进行了修改，包括：添加scrollbar，设置文本不换行，添加序号，增加宽度等；
+- 修改了字号的大小和字体；
+- 去掉了一些小功能：如访问量统计、前后文链接等。
+
 ![MiHo](http://cloud.minhow.com/images/miho/theme/github.jpg)
 hexo-theme-miho
 ================
