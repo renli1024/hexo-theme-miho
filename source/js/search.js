@@ -40,7 +40,7 @@ function initSearch() {
         var html = '';
         var prt = window.location.protocol;
         var url_prefix = 'http://localhost:4000'
-        if (prt == 'https'){
+        if (prt == 'https:'){
             url_prefix = window.mihoConfig.root;
         }
         if (data.length) {
